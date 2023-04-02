@@ -1,0 +1,71 @@
+---
+layout: page
+title: Sponsors
+permalink: /sponsors/
+---
+
+<h2>Our Sponsors</h2>
+<hr>
+<div class="center">
+    <div class="logoDescription" >
+        <img src="/img/sponsors/mrc_1.png" alt="MRC" style="width: 15em;">
+        <div class="logoTextPadding">
+            <p>The Maryland Robotics Center is an interdisciplinary research center housed in the Institute for Systems Research within the A. James Clark School of Engineering. The mission of the center is to advance robotic systems, underlying component technologies, and applications of robotics through research and educational programs that are interdisciplinary in nature and based on a systems approach. The center has over 26 labs and 42 participating faculty members from nine academic departments. Educational programs include Master of Engineering and Graduate Certificate programs in robotics and the Robotics and Autonomous Systems undergraduate minor.</p>
+            <!-- <button class="learnMore">Learn More</button> -->
+            <a href="https://robotics.umd.edu/" class="learnMore" target="_blank">Learn More</a>
+        </div>
+    </div>
+</div>
+
+<br>
+
+
+<style>
+    .logoDescription{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3em;
+    }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .logoTextPadding{
+        padding-left: 4em;
+    }
+    a:hover{
+        text-decoration: none;
+        color: #E03A3E;
+    }
+    .learnMore{
+        background-color: #E03A3E;
+        border: 1px solid #E03A3E;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        padding: .375rem .75rem;
+        cursor: pointer;
+        border-radius: .25rem;
+    }
+    .learnMore:hover{
+        background-color: #000000;
+        border: 1px solid #000000;
+    }
+    @media screen and (max-width: 993px){
+        .logoDescription{
+            flex-direction: column;
+            align-items:flex-start;
+        }
+        img{
+            margin-bottom: 1em;
+        }
+        .logoTextPadding{
+            padding: 0;
+        }
+    }
+</style>

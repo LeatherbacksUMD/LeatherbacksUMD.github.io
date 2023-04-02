@@ -1,0 +1,116 @@
+---
+---
+
+@import "variables";
+@import "bootstrap/bootstrap";
+
+.btn-outline-team {
+  color: #E03A3E !important;
+  border-color: #E03A3E !important;
+  background-color: transparent;
+  background-image: none;
+}
+
+.btn-outline-team:hover {
+  color: $white !important;
+  background-color: #E03A3E !important;
+  border-color: #E03A3E !important;
+}
+
+.btn-outline-team-invert {
+  color: $white !important;
+  background-color: #E03A3E !important;
+  border-color: #E03A3E !important;
+  background-image: none;
+}
+
+.btn-outline-team-invert:hover {
+  color: #E03A3E !important;
+  border-color: #E03A3E !important;
+  background-color: transparent;
+}
+
+.label {
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 12px;
+  line-height: 14px;
+  color: $white;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: $gray-200;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px
+}
+
+.label-team {
+  background-color: #E03A3E !important;
+}
+
+.btn-info {
+  background-color: #E03A3E !important;
+  border-color: #E03A3E !important;
+}
+
+body>.container {
+  padding-top: 80px;
+}
+
+// @media screen and (max-width: 768px) {
+//     body { padding-top: 0px; }
+// }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+  /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.navbar-brand {
+  /* Stops hamburger overflow for small width screens */
+  margin-right: 0;
+}
+
+.navbar-logo {
+  height: 30px;
+
+  @media (max-width: 30px) {
+    height: 30px;
+  }
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 18px;
+}
+
+
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-nav-svg {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: text-top;
+  fill: white;
+  fill-rule: evenodd;
+}

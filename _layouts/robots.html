@@ -1,0 +1,62 @@
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/img/logo_mini.png">
+
+    <title>{{ page.robot_name }} - Leatherbacks</title>
+
+    <!-- Custom styles for this template -->
+    <script src="https://use.fontawesome.com/7124f2cd3d.js"></script>
+            
+    {% include topImports.html %}
+</head>
+
+<body>
+    <header>
+        {% include navbar.html %}
+    </header>
+    <div class="container">        
+        <h2>{{ page.robot_name }}</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-4 col-xs-12">             
+                <img class="img-fluid" src="{{ page.image_url }}" alt="2017 Robot">
+            </div>       
+            <div class="col-md-4 col-md-offset-1 col-xs-12">
+                <h4>Robot Specs</h4><br>
+                <ul class="list-unstyled">
+                    <li><span class='label label-info label-team'>Name:</span> {{ page.robot_name }}</li>
+                    <li><span class='label label-info label-team'>Weapon:</span> {{ page.robot_weapon }}</li>
+                    <li><span class='label label-info label-team'>Weight:</span> {{ page.robot_weight }} lbs</li>
+                    <li><span class='label label-info label-team'>Size:</span> {{ page.robot_width }}" W x {{ page.robot_length }}" L x {{ page.robot_height }}" H</li>
+                    {% for fact in page.quick_facts %}
+                    <li> {{ fact }} </li>
+                    {% endfor %}
+                </ul>      
+            </div>
+            <div class="col-md-4 col-md-offset-1 col-xs-12">
+                <h4>Competition History</h4><br>
+                <ul class="list-unstyled">
+                    {% for competition in page.competitions %}
+                        <li><span class='label label-info label-team'>{{ competition[0] }}</span> {{ competition[1] }} </li>
+                    {% endfor %}
+                </ul>      
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">{% include footerContents.html %}</span>
+        </div>
+    </footer>
+
+    {% include bottomImports.html %}
+
+</body>
+    
+</html>

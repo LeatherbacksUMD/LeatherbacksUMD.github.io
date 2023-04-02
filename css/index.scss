@@ -1,0 +1,120 @@
+---
+---
+
+@import "variables";
+@import "bootstrap/bootstrap";
+
+body, html {
+    height: 100%;
+}
+
+// Override Bootstrap underlining for anchors
+a:hover {
+    color: #0056b3;
+    text-decoration: initial;
+    text-decoration-line: initial;
+}
+
+// For setting cover background
+.site-wrapper { 
+    /* The image used */
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("/img/IMG_9674_removed_wrench.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+}
+
+#mainButton {
+  background-color: #E03A3E;
+  border: 0px;
+  color: $white;
+}
+
+.site-wrapper-inner {
+  vertical-align: middle !important;
+}
+
+// navbar stuff
+
+.navbar {
+  @include media-breakpoint-up(lg) {
+    font-weight: bold;
+    background-color: transparent !important;
+    height: $navbar-logo-height;
+    margin-top: $navbar-logo-height;
+    border: 0;
+  }
+}
+
+.navbar-nav {
+  @include media-breakpoint-up(lg) {
+    float: right;
+  }
+  @include media-breakpoint-down(lg) {
+    width: 100%;
+    text-align: left;
+    float: left;
+  }
+}
+
+.nav-item {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.btn-outline-team {
+  color:  #E03A3E !important;
+  border-color: #E03A3E !important;
+  background-color: transparent;
+  background-image: none;
+}
+.btn-outline-team:hover {
+  color: $white !important;
+  background-color:  #E03A3E !important;
+  border-color:  #E03A3E !important;
+}
+
+.dropdown-item {
+  text-shadow: none;
+}
+.navbar-brand {
+  /* Stops hamburger overflow for small width screens */
+  margin-right: 0;
+}
+
+.navbar-logo {
+  height: 30px;
+
+  @media (max-width: 319px) {
+    height: 30px;
+  }
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 18px;
+}
+
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-nav-svg {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: text-top;
+  fill: white;
+  fill-rule: evenodd;
+}
