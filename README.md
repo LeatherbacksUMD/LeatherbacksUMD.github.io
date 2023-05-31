@@ -17,7 +17,7 @@ Jekyll setup instructions are available on their website for both [Windows](http
 - `clone` - making a working copy of the repository. With GitHub, the main copy of the repository is saved on GitHub's servers. To modify it or to view it, you have to make a local copy and edit that.
 - `add` or stage changes - making Git keep track of the changes you've made. If you make changes aand you don't stage them, they wil not be uploaded to the server. This can be useful (personal settings files that may be created), but can also be annoying to forget if you didn't stage files when you meant to.
 - `commit` - store staged changes locally with a message. This logs whatever is staged and keeps track of it with a message. Make sure to commit often, because it is easier to keep track of what changed if commits do not contain a super long list of changes. Rules for how to write a good commit message are [here](https://chris.beams.io/posts/git-commit/#seven-rules).
-- `push` - send commits to the server. This is usually simple - until someone makes edits to the same files as you at the same time as you.
+- `push` - send commits to the server. This is usually simple - until someone makes edits to the same files as you at the same time as you. MAKE SURE YOU PULL OTHER PEOPLE'S CHANGES BEFORE PUSHING TO AVOID OVERWRITING THEM.
 - `pull` - retrieve commits from other people. Make sure all of your changes are staged and committed before you pull.
 - merge conflict - when your changes conflict with changes that someone else made. People will make these sound scary, but they're easy to fix if you remember that all you have to do is make the conflicting files look like whatever you want on the server. It's even easier if you use a nice editor like Visual Studio Code, which just lets you click "Accept Yours" or "Accept Theirs" on each conflict. Remember to `commit` and `push` once you do this.
 
@@ -47,6 +47,8 @@ Finally, run `bundle exec jekyll serve`. This will run Jekyll and allow you to v
 Blog posts go in tne `_posts` directory, while learning pages go in the `_learn` directory. Both of these types of pages are written in Markdown, a guide for which can be found [here](https://guides.github.com/features/mastering-markdown/).
 
 All blog posts must begin with what Jekyll calls "front matter", which is data that gives Jekyll some information about your page:
+
+Do not edit any files in folders that start with underscores. Your changes will be reverted.
 
 ```liquid
 ---
