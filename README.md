@@ -38,7 +38,7 @@ This should get a local copy of the repository downloaded. Then, open the RubyIn
 - `pwd` - Present Working Directory - whatever folder you're in right now. Also works as a command to rhow you what the `pwd` is.
 - `cd` - change directory. This command takes one argument - which directory to change to. This directory has to be in the `pwd`.
 
-Use the above crarh course to get to the directory that you `clone`d the website repository to. Then, run `bundle install`. Note that this command only has to be run the first time you are doing this.
+Use the above crash course to get to the directory that you `clone`d the website repository to. Then, run `bundle install`. Note that this command only has to be run the first time you are doing this.
 
 Finally, run `bundle exec jekyll serve`. This will run Jekyll and allow you to view the website locally by going to `localhost:4000` in your browser. Note that sometimes, Jekyll takes a few seconds to update with changes you make. Also, sometimes, Chrome will not load in new changes. If this happens, press `F12` and then right click the refresh button, and select `Empty Cache and Hard Reload`.
 
