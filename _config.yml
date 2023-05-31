@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Leatherbacks is a competitive college combat robotics team based out of 
   UMD. We provide an inclusive, student-led environment for students 
   to learn real-world engineering skills through robotics.
-baseurl: "/zacfmhill" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
