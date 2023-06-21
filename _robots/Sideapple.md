@@ -5,7 +5,7 @@ robot_name: Sideapple
 image_url: /img/robots/sideapple.jpg
 year: 2023
 
-robot_weight: 11.4
+robot_weight: 12
 robot_weapon: "Hammersaw"
 robot_width: "11.75 in"
 robot_length: "16 in"
@@ -13,11 +13,10 @@ robot_height: "4.5 in"
 quick_facts:
     - "The UHMW plates on the side serve as disposable armor!"
     - "The wheels are cast out of epoxy for better grip!"
-    - "..."
     
 competitions:
-    "NHRL November 2022": "W/L: 0/2"
-    "NHRL March 2023" : "W/L: 0/2"
+    "NHRL Events 2022": "W/L: 0/2"
+    "NHRL Events 2023" : "W/L: 0/2"
     
     
 

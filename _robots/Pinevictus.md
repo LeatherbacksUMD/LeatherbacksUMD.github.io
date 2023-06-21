@@ -1,11 +1,11 @@
 ---
 layout: robots
 
-robot_name: Whatever this thing was 
+robot_name: Pinevictus
 image_url: /img/robots/pinevictus.jpg
 year: 2021
 
-robot_weight: 1.25
+robot_weight: 3
 robot_weapon: "Dual Disk Vertical Spinner"
 robot_width: "xx.x"
 robot_length: "xx.x"
