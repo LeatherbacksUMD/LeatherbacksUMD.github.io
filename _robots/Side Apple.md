@@ -2,7 +2,7 @@
 layout: robots
 
 robot_name: Sideapple 
-image_url: /img/robots/Sideapple.jpg
+image_url: /img/robots/sideapple.jpg
 year: 2023
 
 robot_weight: 11.4
