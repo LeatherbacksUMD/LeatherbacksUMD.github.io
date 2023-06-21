@@ -1,7 +1,7 @@
 ---
 layout: robots
 
-robot_name: Side Apple 
+robot_name: Sideapple 
 image_url: /img/robots/Sideapple.jpg
 year: 2023
 
